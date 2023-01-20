@@ -1,0 +1,6 @@
+.env
+*.go
+pkg/
+makefile
+.vscode/
+go.*

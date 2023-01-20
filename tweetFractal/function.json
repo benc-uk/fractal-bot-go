@@ -1,0 +1,13 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "schedule": "0 30 */3 * * *",
+      "name": "cron",
+      "type": "timerTrigger",
+      "direction": "in",
+      "runOnStartup": false,
+      "useMonitor": false
+    }
+  ]
+}

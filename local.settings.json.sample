@@ -1,0 +1,15 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "Custom",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=__CHANGE_ME__;AccountKey=__CHANGE_ME__;EndpointSuffix=core.windows.net"
+
+    "TWITTER_CONSUMER_KEY": "__CHANGE_ME__",
+    "TWITTER_CONSUMER_SECRET": "__CHANGE_ME__",
+
+    "TWITTER_ACCESS_TOKEN": "__CHANGE_ME__",
+    "TWITTER_ACCESS_SECRET": "__CHANGE_ME__",
+
+    "URL_BASE": "https://__CHANGE_ME__.azurewebsites.net"
+  }
+}
