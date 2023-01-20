@@ -4,3 +4,4 @@ pkg/
 makefile
 .vscode/
 go.*
+docs/

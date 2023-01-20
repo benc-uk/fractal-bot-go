@@ -6,8 +6,8 @@
       "name": "cron",
       "type": "timerTrigger",
       "direction": "in",
-      "runOnStartup": false,
-      "useMonitor": false
+      "runOnStartup": true,
+      "useMonitor": true
     }
   ]
 }

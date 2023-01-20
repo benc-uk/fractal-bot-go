@@ -1,5 +1,6 @@
 REPO_DIR := $(abspath $(dir $(lastword $(MAKEFILE_LIST))))
 BINARY_NAME := $(REPO_DIR)/bin/fractal-func
+AZURE_FUNC_APP_NAME := fractals-bot
 
 .PHONY: help build run lint format
 .DEFAULT_GOAL := help
@@ -24,3 +25,7 @@ lint: ## 🧹 Lint the code
 format: ## 📝 Format the code
 	@figlet $@ 2> /dev/null || echo "***** Running $@ *****"
 	gofmt -w -s $(REPO_DIR)/src
+
+deploy: build ## 🚀 Deploy to Azure
+	@figlet $@ 2> /dev/null || echo "***** Running $@ *****"
+	func azure functionapp publish $(AZURE_FUNC_APP_NAME)
