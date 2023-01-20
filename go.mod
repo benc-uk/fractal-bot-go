@@ -3,8 +3,7 @@ module fractal-bot-go
 go 1.19
 
 require (
-	github.com/benc-uk/gofract v0.0.0-20211012214247-47caccaf3aac
-	github.com/davecgh/go-spew v1.1.1
+	github.com/benc-uk/gofract v0.0.0-20230120162050-a6f644f92fd6
 	github.com/dghubble/oauth1 v0.7.2
 )
 
@@ -13,4 +12,4 @@ require (
 	gopkg.in/yaml.v2 v2.3.0 // indirect
 )
 
-replace github.com/benc-uk/gofract => ../gofract
+//replace github.com/benc-uk/gofract => ../gofract

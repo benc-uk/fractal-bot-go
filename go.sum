@@ -1,5 +1,6 @@
+github.com/benc-uk/gofract v0.0.0-20230120162050-a6f644f92fd6 h1:md6iqwEN2LEW+b/5zOQ1T16qhR2xECCTf+33Z1l9u9g=
+github.com/benc-uk/gofract v0.0.0-20230120162050-a6f644f92fd6/go.mod h1:oRfKs4uVV7Tvw/aRIXJPfo/k7dgPHNwtP+6e343z26M=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
-github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/dghubble/oauth1 v0.7.2 h1:pwcinOZy8z6XkNxvPmUDY52M7RDPxt0Xw1zgZ6Cl5JA=
 github.com/dghubble/oauth1 v0.7.2/go.mod h1:9erQdIhqhOHG/7K9s/tgh9Ks/AfoyrO5mW/43Lu2+kE=
 github.com/lucasb-eyer/go-colorful v1.0.3 h1:QIbQXiugsb+q10B+MI+7DI1oQLdmnep86tWFlaaUAac=
