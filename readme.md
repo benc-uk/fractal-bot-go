@@ -4,6 +4,9 @@ This is a simple example of a Azure Function using a custom handler written in G
 
 It leverages the modules & packages exported from another project https://github.com/benc-uk/gofract in order to generate the fractal images.
 
+<img src="./docs/fractal-1.png" width="500px"/>
+<img src="./docs/fractal-2.png" width="500px"/>
+
 You can read more about [Azure Function custom handlers here](https://learn.microsoft.com/en-us/azure/azure-functions/functions-custom-handlers)
 
 ![diagram](./docs/diagram.png)
