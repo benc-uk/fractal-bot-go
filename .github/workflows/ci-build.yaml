@@ -11,7 +11,7 @@ on:
 
 jobs:
 
-  build:
+  lint-build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -24,7 +24,7 @@ jobs:
     - name: golangci-lint
       uses: golangci/golangci-lint-action@v3
       with:
-        args: run -E revive,gofmt,misspell
-        
+        args: -E revive,gofmt,misspell
+
     - name: Build
       run: make build
