@@ -17,16 +17,22 @@ type InvokeResponse struct {
 }
 
 // Helper to get a binding from the invocation request
-func GetInvocationBinding(r http.Request, bindingName string) map[string]interface{} {
+func GetInvocationBinding(r http.Request, bindingName string) (*map[string]interface{}, error) {
 	invokeRequest := InvokeRequest{}
 
 	d := json.NewDecoder(r.Body)
-	d.Decode(&invokeRequest)
+	err := d.Decode(&invokeRequest)
+	if err != nil {
+		return nil, err
+	}
 
 	var reqData map[string]interface{}
-	json.Unmarshal(invokeRequest.Data[bindingName], &reqData)
+	err = json.Unmarshal(invokeRequest.Data[bindingName], &reqData)
+	if err != nil {
+		return nil, err
+	}
 
-	return reqData
+	return &reqData, err
 }
 
 // Helper to create a response with a single binding
